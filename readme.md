@@ -1,8 +1,6 @@
-# UI
+# [UI](https://ui.nikiv.dev)
 
-> Solid, Expo
-
-Solid, Expo components/utils shared as packages or copy-pasteable code. Deployed on [ui.nikiv.dev](https://ui.nikiv.dev).
+> Solid, Expo components/utils shared as packages or copy-pasteable code.
 
 ## File structure
 
