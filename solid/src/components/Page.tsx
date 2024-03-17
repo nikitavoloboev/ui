@@ -161,7 +161,7 @@ export default function Page() {
                 setToggleCode("html")
               }}
             >
-              html
+              HTML
             </div>
           </div>
         </div>

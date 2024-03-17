@@ -1,20 +1,10 @@
 export default function Topbar() {
   return (
-    <div class="h-[60px] text-[14px] font-light flex-between fixed top-0 left-0 w-full px-[20px] backdrop-blur-sm">
-      <div class="flex gap-[16px]">
-        <div class="hover:bg-neutral-800 px-3 p-1 rounded-md transition-all active:opacity-70">
-          Components
-        </div>
-        <div class="hover:bg-neutral-800 px-3 p-1 rounded-md transition-all active:opacity-70">
-          Examples
-        </div>
-        <div class="hover:bg-neutral-800 px-3 p-1 rounded-md transition-all active:opacity-70">
-          Github
-        </div>
-      </div>
-      <div class="flex gap-[16px] items-center">
+    <div class="h-[60px] text-[14px] font-light flex justify-between items-center fixed top-0 left-0 w-full px-[20px] backdrop-blur-sm">
+      <div class="flex gap-[16px] items-center ml-auto">
+        {/* TODO: add search */}
         {/* <Search /> */}
-        <a href="">
+        <a href="https://github.com/nikitavoloboev/ui">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
