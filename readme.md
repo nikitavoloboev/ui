@@ -1,13 +1,11 @@
 # UI
 
-> Solid, React Native components
+> Solid, Expo
 
 ## File structure
 
 - [Solid](solid)
 - [Expo](expo)
-- [React](react)
-- [Svelte](svelte)
 
 ## Contribute
 
