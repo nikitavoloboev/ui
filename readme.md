@@ -2,10 +2,12 @@
 
 > Solid, Expo
 
+Solid, Expo components/utils shared as packages or copy-pasteable code. Deployed on [ui.nikiv.dev](https://ui.nikiv.dev).
+
 ## File structure
 
-- [Solid](solid)
 - [Expo](expo)
+- [Solid](solid)
 
 There is also [Tauri](tauri) setup but ideally it will be part of [Solid](solid) folder too. Just need to combine it well.
 
