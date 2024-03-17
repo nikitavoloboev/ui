@@ -7,6 +7,8 @@
 - [Solid](solid)
 - [Expo](expo)
 
+There is also [Tauri](tauri) setup but ideally it will be part of [Solid](solid) folder too. Just need to combine it well.
+
 ## Contribute
 
 Always open to useful ideas or fixes in form of issues or PRs.
