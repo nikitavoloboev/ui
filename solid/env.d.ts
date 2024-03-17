@@ -1,0 +1,15 @@
+declare module "solid-js" {
+  namespace JSX {
+    /*
+        Makes all html events available in JSX
+        as on:eventname and oncapture:eventname attributes.
+    */
+    interface CustomEvents extends HTMLElementEventMap {}
+    interface CustomCaptureEvents extends HTMLElementEventMap {}
+    interface HTMLProps<T extends EventTarget> {
+      "use:draggable"?: any
+    }
+  }
+}
+
+export {}

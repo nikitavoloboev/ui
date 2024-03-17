@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FFFBF5;
+  --darkBackground: 	#111111;
+
+}
+
+html {
+  background-color: #FFFBF5;
+  overflow: hidden;
+  height: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: var(--darkBackground); /* #0e1111 */
+    color: white
+  }
+}

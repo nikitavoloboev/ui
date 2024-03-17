@@ -1,0 +1,10 @@
+{
+  "name": "expo",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "prettier": {
+    "semi": false
+  }
+}
