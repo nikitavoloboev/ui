@@ -9,12 +9,18 @@
   "dependencies": {
     "@solidjs/router": "^0.13.1",
     "@solidjs/start": "^0.7.7",
+    "@thisbeyond/solid-dnd": "^0.7.5",
+    "@tiptap/extension-bubble-menu": "^2.2.4",
+    "@tiptap/starter-kit": "^2.2.4",
     "autoprefixer": "^10.4.19",
     "clsx": "^2.1.0",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
+    "solid-headless": "^0.13.1",
     "solid-js": "^1.8.16",
     "solid-motionone": "^1.0.0",
+    "solid-styled": "^0.11.1",
+    "solid-tiptap": "^0.7.0",
     "tailwindcss": "^3.4.1",
     "vinxi": "^0.3.11"
   },
