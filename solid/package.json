@@ -16,6 +16,7 @@
     "clsx": "^2.1.0",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
+    "shikiji": "^0.10.2",
     "solid-headless": "^0.13.1",
     "solid-js": "^1.8.16",
     "solid-motionone": "^1.0.0",

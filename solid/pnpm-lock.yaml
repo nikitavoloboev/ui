@@ -35,6 +35,9 @@ importers:
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
+      shikiji:
+        specifier: ^0.10.2
+        version: 0.10.2
       solid-headless:
         specifier: ^0.13.1
         version: 0.13.1(solid-js@1.8.16)
@@ -2642,8 +2645,14 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
+  shikiji-core@0.10.2:
+    resolution: {integrity: sha512-9Of8HMlF96usXJHmCL3Gd0Fcf0EcyJUF9m8EoAKKd98mHXi0La2AZl1h6PegSFGtiYcBDK/fLuKbDa1l16r1fA==}
+
   shikiji-core@0.9.19:
     resolution: {integrity: sha512-AFJu/vcNT21t0e6YrfadZ+9q86gvPum6iywRyt1OtIPjPFe25RQnYJyxHQPMLKCCWA992TPxmEmbNcOZCAJclw==}
+
+  shikiji@0.10.2:
+    resolution: {integrity: sha512-wtZg3T0vtYV2PnqusWQs3mDaJBdCPWxFDrBM/SE5LfrX92gjUvfEMlc+vJnoKY6Z/S44OWaCRzNIsdBRWcTAiw==}
 
   shikiji@0.9.19:
     resolution: {integrity: sha512-Kw2NHWktdcdypCj1GkKpXH4o6Vxz8B8TykPlPuLHOGSV8VkhoCLcFOH4k19K4LXAQYRQmxg+0X/eM+m2sLhAkg==}
@@ -5694,7 +5703,13 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
+  shikiji-core@0.10.2: {}
+
   shikiji-core@0.9.19: {}
+
+  shikiji@0.10.2:
+    dependencies:
+      shikiji-core: 0.10.2
 
   shikiji@0.9.19:
     dependencies:
