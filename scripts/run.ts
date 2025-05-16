@@ -4,6 +4,6 @@ await main()
 console.log("✔️")
 
 async function main() {
-  const posts = await get.posts()
-  console.log(posts)
+  // const posts = await get.posts()
+  // console.log(posts)
 }
