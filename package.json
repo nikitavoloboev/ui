@@ -11,10 +11,11 @@
     "db:types": "bunx ronin types"
   },
   "dependencies": {
+    "@base-ui-components/react": "1.0.0-alpha.8",
     "@radix-ui/react-dropdown-menu": "2.1.14",
     "@radix-ui/react-slot": "1.2.2",
     "@ronin/better-auth": "1.0.0",
-    "@ronin/blade": "0.6.0",
+    "@ronin/blade": "0.6.3",
     "@types/react": "19.1.2",
     "add": "2.0.6",
     "class-variance-authority": "0.7.1",
