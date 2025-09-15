@@ -1,0 +1,38 @@
+{
+  "name": "ui",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "blade",
+    "build": "blade build",
+    "serve": "blade serve",
+    "db:migrate": "bunx ronin diff ronin/ronin-schema.ts",
+    "db:apply": "bunx ronin apply",
+    "db:types": "bunx ronin types"
+  },
+  "dependencies": {
+    "@base-ui-components/react": "1.0.0-beta.0",
+    "@radix-ui/react-dropdown-menu": "2.1.15",
+    "@radix-ui/react-slot": "1.2.3",
+    "@ronin/better-auth": "1.0.0",
+    "@ronin/blade": "0.8.8",
+    "@types/react": "19.1.8",
+    "add": "2.0.6",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "dropdown-menu": "0.1.1",
+    "hono": "4.7.11",
+    "lib-utils-ts": "0.0.0-test",
+    "lucide-react": "0.514.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "ronin": "6.6.17",
+    "shadcn": "2.6.3",
+    "tailwind-merge": "3.3.1",
+    "tailwindcss": "4.1.10",
+    "tailwindcss-animate": "1.0.7"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
