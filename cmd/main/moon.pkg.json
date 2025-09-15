@@ -1,0 +1,9 @@
+{
+  "is-main": true,
+  "import": [
+    {
+      "path": "nikitavoloboev/moonbit",
+      "alias": "lib"
+    }
+  ]
+}
