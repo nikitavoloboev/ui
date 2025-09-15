@@ -1,13 +1,6 @@
 {
   "is-main": true,
   "import": [
-    {
-      "path": "nikitavoloboev/moonbit",
-      "alias": "lib"
-    },
-    {
-      "path": "moonbitlang/x",
-      "alias": "x"
-    }
+    "moonbitlang/x/fs"
   ]
 }
