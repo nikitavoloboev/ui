@@ -4,6 +4,10 @@
     {
       "path": "nikitavoloboev/moonbit",
       "alias": "lib"
+    },
+    {
+      "path": "moonbitlang/x",
+      "alias": "x"
     }
   ]
 }
